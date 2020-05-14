@@ -13,12 +13,13 @@ class Dog
 
   def save
     @@all << self
+    binding.pry
+
   end
 
   def self.all
     @@all
   end
-binding.pry
   def self.print_all
      @@all.collect {|dog| puts dog}
   end
