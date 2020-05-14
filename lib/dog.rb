@@ -20,7 +20,7 @@ class Dog
   end
 
   def self.print_all
-     puts @@all.instance.name
+     puts @@all.instance_name
   end
 
   def self.clear_all
