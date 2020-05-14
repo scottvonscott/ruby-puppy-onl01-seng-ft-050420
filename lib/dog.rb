@@ -20,7 +20,7 @@ class Dog
     binding.pry
   end
   def self.print_all
-     @@all.collect {|dog| puts dog}
+     @@all.collect {|dog| puts @name}
   end
 
   def self.clear_all
