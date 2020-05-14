@@ -20,7 +20,7 @@ class Dog
   end
 
   def self.print_all
-     @@all.collect {|id, dog| puts dog}
+     @@all.collect {|dog| puts instance.name}
   end
 
   def self.clear_all
